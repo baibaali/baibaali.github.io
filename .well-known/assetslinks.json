@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "gr.boxnow.customer.dev.debug",
+    "sha256_cert_fingerprints":
+    ["D9:42:B1:2B:CB:81:23:F0:1D:A7:61:DB:03:18:C3:B8:C7:BF:21:31:74:B1:CD:7D:17:06:DF:CB:BD:7C:54:78"]
+  }
+}]
