@@ -1,1 +1,1 @@
-[Click this link](boxnow-customer://my-app.com)
+[Click this link](https://boxnow-customer.com/my-app.com)
