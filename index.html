@@ -9,8 +9,23 @@
     <p><a href="boxnow-customer://payment-result?failure">Failure Payment</a></p>
     <p><a href="https://baibaali.github.io/payment-result?success">Success Payment HTTPS</a></p>
     <p><a href="https://baibaali.github.io/payment-result?failure">Failure Payment HTTPS</a></p>
-    <meta http-equiv="refresh" content="4; URL=https://customer-app-api-development.boxnow.gr/web/payment-complete?success&lang=en-GB">
-    link rel="canonical" href="https://customer-app-api-development.boxnow.gr/web/payment-complete?success&lang=en-GB">
+<!--     <meta http-equiv="refresh" content="4; URL=https://customer-app-api-development.boxnow.gr/web/payment-complete?success&lang=en-GB"> -->
+<!--     link rel="canonical" href="https://customer-app-api-development.boxnow.gr/web/payment-complete?success&lang=en-GB"> -->
+    <script>
+        // Function to redirect to a specified URL after 5 seconds
+        function redirectAfterDelay() {
+            // URL to redirect to
+            const url = 'boxnow-customer://payment-result?failure';
+
+            // Redirect after 5 seconds (5000 milliseconds)
+            setTimeout(function() {
+                window.location.href = url;
+            }, 4000);
+        }
+
+        // Call the function to initiate the redirect
+        redirectAfterDelay();
+    </script>
   </body>
 </html>
 
